@@ -1,0 +1,31 @@
+#titleText {
+    display: flex;
+    justify-content: center;
+    font-family: Relationship;
+    font-size: 50px;
+}
+
+#underTitle {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+
+.divBig {
+    display: flex;
+    height: 150px;
+    width: 600px;
+    margin: auto;
+    justify-content: center;
+    border: 3px solid grey;
+    box-shadow: 10px 10px;
+}
+
+
+
+@font-face {
+    font-family: Relationship;
+    src: url(./fonts/Relationship\ of\ mélodrame.ttf);
+}
