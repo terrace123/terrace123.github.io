@@ -5,7 +5,7 @@
     font-size: 50px;
 }
 
-#underTitle {
+#aboveTitle {
     display: flex;
     margin: auto;
     justify-content: center;
@@ -13,7 +13,7 @@
     
 }
 
-.divBig {
+.divTitle {
     display: flex;
     height: 150px;
     width: 600px;
@@ -21,11 +21,54 @@
     justify-content: center;
     border: 3px solid grey;
     box-shadow: 10px 10px;
+    margin-bottom: 35px;
 }
 
+.divButton {
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
 
+.divContent {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 700px;
+}
+
+.infoBtn {
+    color: black;
+    transition: 0.3s
+}
+
+.infoBtn:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.infoBtn:active {
+    background-color: red;
+}
+
+button {
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+#project, #accomp, #edu {
+    display: none;
+}
 
 @font-face {
     font-family: Relationship;
     src: url(./fonts/Relationship\ of\ mélodrame.ttf);
 }
+

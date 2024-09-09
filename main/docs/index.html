@@ -7,10 +7,69 @@
     <title>terrace123</title>
 </head>
 <body>
-    <div class="divBig">
+    <p><a href="https://www.github.com/terrace123" id="aboveTitle">terrace123</a></p>
+    <div class="divTitle">
         <h1 id="titleText">Terrace Mason - Aspiring IT</h1>
-        <p ><a href="https://www.github.com/terrace123" id="underTitle">terrace123</a></p>
+        
     </div>
-    
+    <div class="divButton">
+        <button class="infoBtn" onclick="btnScriptP()" ><h2>Projects</h2></button>
+        <button class="infoBtn" onclick="btnScriptAcc()"><h2>Accomplishments</h2></button>
+        <button class="infoBtn" onclick="btnScriptEdu()"><h2>Education</h2></button>
+    </div>
+    <div class="divContent">
+        <p>
+            <span id="project">
+                testing testing this is projects!!
+            </span>
+        </p>
+        <span id="accomp">
+            yeah accomplishments!
+        </span>
+        <span id="edu">
+            im educated !!
+        </span>
+    </div>
 </body>
+<script>
+    var projectText = document.getElementById("project")
+    var accompText = document.getElementById("accomp")
+    var eduText = document.getElementById("edu")
+    function btnScriptP() {
+
+        if (project.style.display === "none") {
+            project.style.display = "inline";
+            accomp.style.display = "none";
+            edu.style.display = "none";
+        } else {
+            project.style.display = "none";
+        }
+    }
+
+    function btnScriptAcc() {
+
+        if (accomp.style.display === "none") {
+            accomp.style.display = "inline";
+            project.style.display = "none";
+            edu.style.display = "none";
+        
+        } else {
+            accomp.style.display = "none";
+        }
+    }
+
+    function btnScriptEdu() {
+
+        if (edu.style.display === "none") {
+            edu.style.display = "inline";
+            project.style.display = "none";
+            accomp.style.display = "none";
+
+        } else {
+            edu.style.display = "none";
+        }
+    }
+
+</script>
+
 </html>
