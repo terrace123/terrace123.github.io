@@ -67,6 +67,14 @@ button {
     display: none;
 }
 
+#Proj1, #Proj2, #Proj3 {
+    width: 800px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 20px;
+}
+
 @font-face {
     font-family: Relationship;
     src: url(./fonts/Relationship\ of\ mélodrame.ttf);
